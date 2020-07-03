@@ -19,7 +19,7 @@
 	         <article class="text-justify">
 	            {!! $book->description !!}
 	         </article>
-	    
+
 	      </div>
 	   </div>
 	   <div class="col-md-3">
@@ -68,7 +68,7 @@
 
 				</div>
 			</div>
-			
+
 		    <div class="card mb-2">
 		    	@php $cnt = 0 @endphp
 		    	@foreach($book->comments as $cmt)
@@ -84,12 +84,12 @@
 	                            <div class="float-right">
                     				@include('includes.rating', ['rating' => $cmt->rating])
 	                        	</div>
-		                       
+
 		                       <div class="clearfix"></div>
 		                        <p>{{ $cmt->comment }}</p>
-		                        
+
 	                            <a class="float-right btn btn-outline-primary ml-2" data-id="{{ $cmt->id }}"> <i class="fa fa-reply"></i> Reply</a>
-		         
+
 		                    </div>
 		                </div>
 			            <div class="reply-section">
@@ -120,7 +120,7 @@
 			                        {!! Form::close() !!}
 
 			                    </div>
-			                </div>                        
+			                </div>
 			            </div>
 			        </div>
 			        @php $cnt++ @endphp

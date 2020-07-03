@@ -25,7 +25,7 @@
 	                                        <th>Bill</th>
 	                                        <th>Created</th>
 	                                        <th>Date</th>
-	                                        <th>Aprove</th>
+	                                        <th>Approval</th>
 	                                        <th>Pdf</th>
 	                                        <th>Delete</th>
 	                                    </tr>
@@ -82,7 +82,7 @@
 					$('.checkBoxes').each(function(){
 						this.checked = true;
 					});
-				} 
+				}
 				else{
 					$('.checkBoxes').each(function(){
 						this.checked = false;

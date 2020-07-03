@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Paperback-bd</title>
+    <title>Online Bookshop</title>
 
     <!-- Main CSS-->
     <link href="{{ asset('css/paperbackbd.bundle.css') }}" rel="stylesheet">

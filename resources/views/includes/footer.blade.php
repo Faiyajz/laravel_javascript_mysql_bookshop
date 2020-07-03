@@ -7,11 +7,11 @@
                     <ul>
                         <li>
                             <i class="fa fa-phone"></i>
-                            <span>+8801929578348</span>
+                            <span>+8801325465465</span>
                         </li>
                         <li>
                             <i class="fa fa-envelope"></i>
-                            <span>faiyajz007@gmail.com</span>
+                            <span>bookshop@gmail.com</span>
                         </li>
                     </ul>
                 </div>
@@ -24,7 +24,8 @@
                             <span></span>
                         </li>
                         <li>
-                            <span>Paperbackbd &copy;<script>document.write(new Date().getFullYear())</script></span>
+                            <span>Online Bookshop &copy;<script>document.write(new Date().getFullYear())</script></span>
+                            <span>Develop with <3</span>
                         </li>
                     </ul>
                 </div>
